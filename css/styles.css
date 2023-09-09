@@ -1,0 +1,51 @@
+/*styling for background image as well as font across page*/
+body {
+    background: url(../images/dark-blue-watercolor.png);
+    background-repeat: no-repeat;
+    background-size: 400%;
+    background-position: center;
+    height: 100vh;    
+    color: rgb(186, 190, 206);
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+/*section is opaque to add aesthetic*/
+section {
+    background-color: rgba(0,0,0,0.3);
+    height: 100vh;
+}
+
+/*styling that organizes the header and its contents*/
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgba(61, 67, 86, 0.482);
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+#title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+/*styling for the title and subtitles*/
+#main-title{
+    margin-right: 5px;
+    font-size: 50px;
+}
+#subtitle0 {
+    margin-left: 5px;
+    font-size: 25px;
+}
+#main-title, #subtitle0 {
+    margin-bottom: 0;
+}
+#subtitle1 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-size: 16.5px;
+}
+
+
