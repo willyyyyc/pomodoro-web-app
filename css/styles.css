@@ -2,7 +2,7 @@
 body {
     background: url(../images/dark-blue-watercolor.png);
     background-repeat: no-repeat;
-    background-size: 400%;
+    background-size: 450%;
     background-position: center;
     color: rgb(186, 190, 206);
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
@@ -10,6 +10,7 @@ body {
 /*section is opaque to add aesthetic*/
 #page-content {
     background-color: rgba(0,0,0,0.3);
+    margin: 0;
 }
 
 /*styling that organizes the header and its contents*/
@@ -31,10 +32,12 @@ header {
 /*styling for the title and subtitles*/
 #main-title{
     margin-right: 0.4vw;
+    margin-top: 2vh;
     font-size: 10vw;
 }
 #subtitle0 {
     margin-left: 0.4vw;
+    margin-top: 0;
     font-size: 5vw;
 }
 #main-title, #subtitle0 {
@@ -57,27 +60,18 @@ header {
     margin-left: 5px;
     margin-right: 5px;
     height: 7vw;
-    width: 15vw;
+    width: 28vw;
     border-radius: 12px;
     color:rgb(186, 190, 206);
     border-color: rgba(61, 67, 86, 0.482);
-    font-size: 2vh;
-}
-
-/*google icon styling*/
-/*note: these are default settings*/
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    font-size: 4vw;
+    padding: 0;
 }
 
 /*styling for timers*/
 .timer {
-    height: 50vw;
-    width: 50vw;
+    height: 60vw;
+    width: 60vw;
     border-radius: 50%;
     border: 1vw solid rgb(186, 190, 206);
     display: flex;
@@ -85,7 +79,27 @@ header {
     text-align: center;
     justify-content: center;
 }
-
 .time {
     font-size: 20vw;
+}
+#timer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+/*google icon styling*/
+/*note: these are default settings*/
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    font-size: 32px !important;
+}
+/* align icons to center of page*/
+main {
+    text-align: center;
 }
