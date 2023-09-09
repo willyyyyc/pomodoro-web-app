@@ -9,7 +9,7 @@ body {
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 /*section is opaque to add aesthetic*/
-section {
+#page-content {
     background-color: rgba(0,0,0,0.3);
     height: 100vh;
 }
@@ -48,4 +48,20 @@ header {
     font-size: 16.5px;
 }
 
+/*button styling*/
+#button-container {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.timer-selection {
+    background-color: rgba(95, 96, 121, 0.5);
+    margin-left: 5px;
+    margin-right: 5px;
+    height:50px;
+    width: 150px;
+    border-radius: 12px;
+    color:rgb(186, 190, 206);
+    border-color: rgba(61, 67, 86, 0.482);
+}
 

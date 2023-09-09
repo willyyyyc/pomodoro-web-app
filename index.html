@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="./css/normalize.css">
     </head>
     <body>
-        <section>
+        <section id="page-content">
             <header>
                 <div id="title-container">
                     <h1 id="main-title">POMODORO</h1>
@@ -19,9 +19,11 @@
                 <div class="timer" id="pomodoro">25:00</div>
                 <div class="timer" id="short-break">5:00</div>
                 <div class="timer" id="long-break">15:00</div>
-                <button name="pomodoro-button">Pomodoro</button>
-                <button name="short-break-button">Short Break</button>
-                <button name="long-break">Long Break</button>
+                <section id="button-container">
+                    <button class="timer-selection" name="pomodoro-button">POMODORO</button>
+                    <button class="timer-selection" name="short-break-button">SHORT BREAK</button>
+                    <button class="timer-selection" name="long-break">LONG BREAK</button>
+                </section>
             </main>
         </section>
     </body>
