@@ -101,9 +101,15 @@ header {
     'opsz' 24;
     font-size: 32px !important;
 }
-/*align icons to center of page*/
-main {
-    text-align: center;
+#replay {
+    font-size: 24px !important;
+    font-variation-settings: 
+    'wght' 600;
+}
+#control-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*style info at bottom of page*/
