@@ -1,15 +1,12 @@
 /*styling for background image as well as font across page*/
 body {
-    background: url(../images/dark-blue-watercolor.png);
-    background-repeat: no-repeat;
-    background-size: 450%;
-    background-position: center;
+    background-color: #1c4966;
     color: rgb(186, 190, 206);
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 /*section is opaque to add aesthetic*/
 #page-content {
-    background-color: rgba(0,0,0,0.3);
+
     margin: 0;
 }
 
@@ -18,7 +15,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 0.5vw solid rgba(61, 67, 86, 0.482);
+    border-bottom: 0.5vw solid rgba(95, 96, 121, 0.5);
     width: 95vw;
     margin-left: auto;
     margin-right: auto;
@@ -52,8 +49,12 @@ header {
 /*button styling*/
 #button-container {
     display: flex;
-    width: 100vw;
     justify-content: center;
+    width: 95vw;
+    border-bottom: 0.5vw solid rgba(95, 96, 121, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2vh;
 }
 .timer-selection {
     background-color: rgba(95, 96, 121, 0.5);
@@ -78,6 +79,7 @@ header {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    background-color: rgba(0,0,0,0.1);
 }
 .time {
     font-size: 20vw;
@@ -99,7 +101,35 @@ header {
     'opsz' 24;
     font-size: 32px !important;
 }
-/* align icons to center of page*/
+/*align icons to center of page*/
 main {
     text-align: center;
+}
+
+/*style info at bottom of page*/
+#discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+#subheading-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#subheading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 7vw;
+}
+#tomato {
+    font-size: 7vw !important;
+    font-variation-settings: 
+    'wght' 600;
+}
+#info {
+    font-size: 4.5vw;
+    text-align: justify;
+    width: 95vw;
 }
