@@ -21,29 +21,51 @@
                 <section id="timer-container">
                     <div class="timer" id="pomodoro">
                         <p class="time">25:00</p>
+                        <div id="control-container">
+                            <span class="material-symbols-outlined">
+                                play_arrow
+                            </span>
+                            <span class="material-symbols-outlined">
+                                stop
+                            </span>
+                            <span class="material-symbols-outlined" id="replay">
+                                replay
+                            </span>
+                        </div>
                     </div>
                     <div class="timer" id="short-break">
                         <p class="time">5:00</p>
+                        <div id="control-container">
+                            <span class="material-symbols-outlined">
+                                play_arrow
+                            </span>
+                            <span class="material-symbols-outlined">
+                                stop
+                            </span>
+                            <span class="material-symbols-outlined" id="replay">
+                                replay
+                            </span>
+                        </div>
                     </div>
                     <div class="timer" id="long-break">
                         <p class="time">15:00</p>
+                        <div id="control-container">
+                            <span class="material-symbols-outlined">
+                                play_arrow
+                            </span>
+                            <span class="material-symbols-outlined">
+                                stop
+                            </span>
+                            <span class="material-symbols-outlined" id="replay">
+                                replay
+                            </span>
+                        </div>
                     </div>
                 </section>
-                <div id="control-container">
-                    <span class="material-symbols-outlined">
-                        play_arrow
-                    </span>
-                    <span class="material-symbols-outlined">
-                        stop
-                    </span>
-                    <span class="material-symbols-outlined" id="replay">
-                        replay
-                    </span>
-                </div>
                 <section id="button-container">
-                    <button class="timer-selection" name="pomodoro-button">POMODORO</button>
-                    <button class="timer-selection" name="short-break-button">SHORT BREAK</button>
-                    <button class="timer-selection" name="long-break">LONG BREAK</button>
+                    <button class="timer-selection" id="pomodoro-button">POMODORO</button>
+                    <button class="timer-selection" id="short-break-button">SHORT BREAK</button>
+                    <button class="timer-selection" id="long-break-button">LONG BREAK</button>
                 </section>
                 <section id="discription">
                     <div id="subheading-container">
@@ -61,5 +83,6 @@
                 </section>
             </main>
         </section>
+        <script src="scripts/scripts.js"></script>
     </body>
 </html>
